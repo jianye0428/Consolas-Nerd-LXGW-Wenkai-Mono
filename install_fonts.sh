@@ -70,7 +70,7 @@ find_ttf_files() {
 }
 
 # 安装字体到系统目录
-install_to_system() {
+ () {
     local ttf_files=$1
     SYSTEM_FONT_DIR="/usr/share/fonts/truetype/custom"
     
